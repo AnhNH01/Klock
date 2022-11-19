@@ -9,8 +9,8 @@ class MockAlarmData {
             Alarm(12,0, 0),
             Alarm(13, 20, 0),
             Alarm(14, 30, 1),
-            Alarm(15, 0, 0)
-
+            Alarm(15, 0, 0),
+            Alarm(9, 0, 0)
         )
     }
 }
