@@ -24,7 +24,7 @@ class AlarmsFragment : Fragment() {
     private lateinit var dataSet: MutableList<Alarm>
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: AlarmAdapter
-    val timePicker: MaterialTimePicker =
+    private var timePicker: MaterialTimePicker =
         MaterialTimePicker.Builder()
             .setTimeFormat(CLOCK_24H)
             .setHour(12)
